@@ -20,7 +20,7 @@ import {AbstractControl, FormBuilder, FormControl, FormGroup, Validators} from '
      lastName: AbstractControl;
  
      constructor( public formBuilder: FormBuilder) {
-       
+       console.log('page1 component')
      }
  
      ngOnInit() {
